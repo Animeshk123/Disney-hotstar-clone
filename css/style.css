@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-zoom: unset;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0D111C;
+  height: 220vh;
+}
+
+.header {
+  width: 100%;
+  height: 55px;
+  background-color: #090913;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.leftside {
+  width: 75%;
+  max-width: 270px;
+  min-width: 268px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bar {
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar img {
+  width: 55%;
+  height: 55%;
+}
+
+.logo {
+  width: 210px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+.logo button {
+  outline: none;
+  border: none;
+  background-color: #1F80DF;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.search {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*image slider start*/
+
+.swiper-container {
+  width: 100%;
+  max-width: 400px;
+  min-width: 350px;
+  height: 220px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.inner1,.inner2,.inner3,.inner4,.inner5,.inner6 {
+  width: 94%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20293F;
+  border-radius: 13px;
+}
+
+.innerimage1,.innerimage2,.innerimage3,.innerimage4,.innerimage5 {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+opacity: 1;
+
+}
+.innerimage6{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    opacity: 1;
+}
+/*image slider end*/
+
+.title {
+  width: 100%;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.title p {
+  color: white;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #307AC5;
+  text-transform: uppercase;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.pages {
+  width: 100%;
+  height: 170px;
+  margin-top: 10px;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7,
+.page8,
+.page9,
+.page10,
+.page11,
+.page12,
+.page13,
+.page14,
+.page15,
+.page16,
+.page17,
+.page18,
+.page19,
+.page20 {
+  width: 105px;
+  height: 160px;
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: #20293F;
+  
+}
+
+.page1 img,
+.page2 img,
+.page3 img,
+.page4 img,
+.page5 img,
+.page6 img,
+.page7 img,
+.page8 img,
+.page9 img,
+.page10 img,
+.page11 img,
+.page12 img,
+.page13 img,
+.page14 img,
+.page15 img,
+.page16 img,
+.page17 img,
+.page18 img,
+.page19 img,
+.page20 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/*div end */
+.bottom {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #090913;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 3px solid #101523;
+  z-index: 100;
+}
+
+.bottom div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #9FA3AC;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.bottom div svg {
+  width: 40%;
+}
+
+.bottom .disney svg {
+  width: 90% !important;
+}
+
+.bottom .sports svg {
+  width: 30% !important;
+}
+
+.bottom .tv svg {
+  width: 30% !important;
+  width: 30% !important;
+}
+
+.slidenav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 82%;
+  z-index: 500;
+  height: 100vh;
+  background-color: #0D111C;
+  left: -100%;
+  transition: 0.2s linear;
+}
+
+.slideadd {
+  left: 0;
+}
+
+.over {
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  visibility: hidden;
+}
+
+.overadd {
+  display: block;
+  visibility: visible;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.left {
+  margin-left: 24px;
+}
+
+.left h4 {
+  font-size: 18px;
+  color: #9FA3AC;
+}
+
+.left p {
+  font-size: 15px;
+  color: #9FA3AC;
+}
+
+.right {
+  margin-right: 18px;
+  font-size: 25px;
+  color: #9FA3AC;
+}
+
+.watch {
+  width: 100%;
+  height: 50px;
+  padding: 12px 24px;
+  font-size: 19px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: #9FA3AC;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 4px;
+}
+
+.heading img {
+  width: 140px;
+}
+
+.btn {
+  width: 45px;
+  height: 24px;
+  border: 2px solid #9FA3AC;
+  margin: 10px 23px;
+  border-radius: 23px;
+  position: relative;
+  background-color: #090913;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: #9FA3AC;
+  border-radius: 50%;
+  transition: 0.2s ease;
+  left: 1px;
+}
+
+.balladd {
+  left: 20px;
+}
+
+.sidenavbar {
+  width: 100%;
+  height: 370px;
+  margin-top: 20px;
+}
+
+.sidenavbar ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+.sidenavbar ul li {
+  text-decoration: none;
+  padding: 20px 24px;
+  color: #9FA3AC;
+  display: flex;
+  align-items: center;
+}
+
+.sidenavbar ul li img {
+  margin-right: 22px;
+}
