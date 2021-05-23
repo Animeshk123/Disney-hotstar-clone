@@ -8,3 +8,5 @@
 
 
 ## You can see live this here. [click here](https://animeshk123.github.io/Disney-hotstar-clone/)
+ 
+## remember it is support in mobile ....
