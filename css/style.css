@@ -83,8 +83,8 @@ body {
 
 .swiper-container {
   width: 100%;
-  max-width: 400px;
-  min-width: 350px;
+  max-width: 450px;
+  min-width: 300px;
   height: 220px;
   margin-top: 60px;
   margin-left: auto;
