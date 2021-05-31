@@ -161,7 +161,6 @@ body {
   height: 100%;
   border-radius: 13px;
   opacity: 1;
-object-fit: cover;
 
 }
 
@@ -170,7 +169,6 @@ object-fit: cover;
   height: 100%;
   border-radius: 13px;
   opacity: 1;
-object-fit: cover;
 }
 
 /*image slider end*/
