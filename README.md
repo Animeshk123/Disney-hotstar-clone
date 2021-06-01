@@ -9,3 +9,6 @@ It is not real support only phone devices
 # it is not real but i try to made this like original 
 
 ## i hope you're also like this
+![hotstar](https://github.com/Animeshk123/Disney-hotstar-clone/blob/main/Media/S4.jpg)
+![hotstar](https://github.com/Animeshk123/Disney-hotstar-clone/blob/main/Media/Sc5.jpg)
+![hotstar](https://github.com/Animeshk123/Disney-hotstar-clone/blob/main/Media/Sc6.jpg)
